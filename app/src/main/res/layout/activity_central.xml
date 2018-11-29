@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Central">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_birthday"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fab_central"
+        app:srcCompat="@android:drawable/ic_dialog_dialer" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_central"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="2dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_displaytitle"
+        app:srcCompat="@android:drawable/ic_btn_speak_now" />
+
+</android.support.constraint.ConstraintLayout>
